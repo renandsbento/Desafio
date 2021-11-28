@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Praise&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+    
+    
+        
+    <title>Document</title>
+
+</head>
+
+<body>
+    
+    <div class = "imgPredio">
+        <div class = "button-area">
+            <button class ="b1" id ="btn1"></button>
+            <button class ="b2" id ="btn2"></button>
+            
+        </div>
+
+        <img src='predio1.jpg' alt="Predios" class = "circpredio">
+        <script src="trocaimg.js"></script>
+        
+    </div>
+    
+    <div class = "logo">
+        <img src="casa.png" alt="casa" height="60" width="60">
+    </div>
+
+
+
+
+
+    <div id = "Caixona">
+        <div class = "CaixaPesquisa">
+            <div class="Formapesquisa">
+                <img src="seta.png" alt="seta" id="seta" height="60" width="60">
+                <p>Digite o bairro desejado:</p>
+    
+            </div>
+            <input id="txt" type="text" search='imoveis' class = "caixa-txt" placeholder="Pesquisar">
+            <a href="#" class="blupa">
+                <img src="lupatranspa.png" alt="lupa" height="30" width="30">
+            </a>
+        </div>
+
+        
+        <div class="scroll">
+            <div id = "DadosCerto">
+                <table id="tabela" class="tab"></table>
+                
+                <script src="main.js"></script>       
+                
+            </div> 
+        </div>
+
+    </div>
+
+    <div id = "Sobre">
+        <p>Desafio realizado afim de demonstrar habilidades e usualidades no desenvolvimento web</p>
+        <p>conectando a API de imóveis.</p>
+        <p>Onde na "Home" o usuario pode fazer a pesquisa através do bairro</p>
+        <p>e encontrar diversos resultados do local de interesse</p>
+           
+        
+        <script src="sobre.js"></script>
+
+    </div>
+
+
+
+
+    
+    <nav>
+        <div class="area-menu">
+            <ul id ="menu" >
+                <li> 
+                    <a onclick="volta()" href="#">
+                        Home
+                    </a>
+                </li>
+                <li> 
+                    <a onclick ="troca()" href ="#">
+                        <script src="trocapagina.js"></script> 
+                        About
+                    </a>
+                </li>
+            </ul>
+    
+        </div>
+
+
+
+
+
+    </nav>
+    
+
+</body>
+</html>
